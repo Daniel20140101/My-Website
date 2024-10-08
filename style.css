@@ -1,0 +1,43 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #007bff;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+section {
+    padding: 60px 0;
+}
+
+footer {
+    background: #333;
+}
+
+/* Portfolio Cards */
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Contact Form */
+#contactForm .form-control {
+    margin-bottom: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+}
